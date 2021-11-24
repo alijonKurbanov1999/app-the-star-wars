@@ -96,7 +96,6 @@ export default {
       else {
         this.favourites.push(hero);
       }
-
       localStorage.setItem('favorites', JSON.stringify(this.favourites));
     },
   },

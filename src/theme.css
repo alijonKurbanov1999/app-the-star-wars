@@ -26,13 +26,11 @@ body {
     transition: box-shadow 0.5s, transform 0.5s;
     border-radius: 10px;
 }
-
 .section .cards:hover {
     transform: scale(1);
     box-shadow: 2px 3px 80px rgba(7, 253, 216, 0.2);
     transition: box-shadow 0.3s, transform 0.3s;
 }
-
 .cards .images img{
     width: 100%;
     height: 100%;
@@ -59,34 +57,27 @@ a {
     font-weight: 500;
     text-decoration: none;
 }
-
-
 h1 {
     font-size: 2.2rem;
     font-weight: 600;
 }
-
 .logo{
     font-size: 1.65rem;
     padding-bottom: 0.3rem;
     border-bottom: 1px solid #eaecef;
     cursor: pointer;
 }
-
 h3 {
     font-size: 1.35rem;
     margin-right: 20px;
 }
-
 .container {
     margin: 0 auto;
     max-width: 100%;
 }
-
 .container.with-nav {
     margin-top: 70px;
 }
-
 .modal {
     position: fixed;
     width: 600px;
@@ -107,13 +98,11 @@ h3 {
     bottom: 0;
     background: rgba(0, 0, 0, 0.8);
 }
-
 .form-control {
     position: relative;
     margin-bottom: 0.5rem;
     width: 40%;
 }
-
 .form-control input {
     font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
     margin: 0;
@@ -126,7 +115,6 @@ h3 {
     font-size: 1rem;
     resize: none;
 }
-
 .form-checkbox {
     margin-bottom: 1rem;
     display: flex;
@@ -138,19 +126,16 @@ h3 {
     display: flex;
     align-items: center;
 }
-
 .form-control label {
     display: block;
     margin: 0 0 0.3rem 0.3rem;
     font-weight: 500;
 }
-
 .form-control input:active,
 .form-control input:focus {
     transition: border 0.22s;
     border: 2px solid #42b983;
 }
-
 .card {
     padding: 1rem;
     display: flex;
@@ -162,19 +147,16 @@ h3 {
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
     background: #fff;
 }
-
 .card.center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .list-item {
     display: flex;
     align-items: center;
@@ -185,7 +167,6 @@ h3 {
     white-space: nowrap;
     overflow: hidden;
 }
-
 .list-item:hover {
     background: #eee;
 }
@@ -207,21 +188,17 @@ h3 {
             15px 0 20px 10px rgba(2, 20, 26, 0.2);
 
 }
-
 .navbar-menu {
     list-style: none;
     display: flex;
 }
-
 .navbar-menu li {
     margin-right: 2rem;
 }
-
 .navbar-menu li a {
     color: #2c3e50;
     text-decoration: none;
 }
-
 .navbar-menu li a:hover, .navbar-menu li a.active {
     border-bottom: 2px solid #3eaf7c;
 }
